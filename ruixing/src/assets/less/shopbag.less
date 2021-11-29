@@ -1,0 +1,109 @@
+.shopBag{
+    min-height: 100vh;
+    background-color: #F4F5F2;
+    padding: 46px 0 100px 0;
+    .van-nav-bar__right{
+        .van-nav-bar__text{
+            color: black;
+            font-weight: bolder;
+        }
+    }
+    .bg-box{
+        height: 60px;
+    }
+    .pro-box{
+        padding: 10px 0;
+    }
+    .pro-item{
+        height: 80px;
+        margin-top: 15px;
+        &:first-child{
+            margin-top:0;
+        }
+        .van-swipe-cell{
+            height: 100%;
+            padding: 0 10px;
+        }
+        .van-button--danger{
+            background-color: #3378FF;
+            border-color: #3378FF;
+            height: 100%;
+        }
+        .van-swipe-cell__right{
+            right: -12px;
+            border-top-left-radius: 15px;
+            border-bottom-left-radius: 15px;
+            overflow: hidden;
+        }
+        .van-swipe-cell__wrapper{
+            background-color: white;
+        }
+        .pro{
+            height: 80px;
+            background-color: white;
+            display: flex;
+        }
+        .pro-item-fl{
+            width: 40px;
+            height: 100%;
+        }
+        .pro-item-fr{
+            width: calc(100% - 40px);
+            height: calc(100% - 16px);
+        }
+        .van-checkbox{
+            margin:30px 0 0 10px;
+        }
+        .pro-item-fr{
+            padding: 8px 5px;
+            display: flex;
+            .info-img{
+                width: 60px;
+                height: 100%;
+                background-color: blue;
+            }
+            .item-info{
+                width: calc(100% - 70px);
+                margin-left: 10px;
+            }
+            .info-name{
+                display: flex;
+            }
+            .name{
+                font-size: 16px;
+                color: #5E5D59;
+            }
+            .rule{
+                margin-left: 10px;
+                line-height: 20px;
+                color: #989898;
+            }
+            .info-enname{
+                color: #989898;
+                margin: 5px 0;
+            }
+            .fl{
+                color: #0b34ba;
+                font-weight: bolder;
+            }
+            .van-stepper--round .van-stepper__plus{
+                background-color:#0b34ba;
+            }
+            .van-stepper--round .van-stepper__minus{
+                border-color:#0b34ba;
+                color:#0b34ba;
+            }
+        }
+    }
+    // 提交订单栏
+    .van-submit-bar{
+        bottom: 50px;
+        .van-submit-bar__price{
+            color: #0b34ba;
+        }
+        .van-submit-bar__button--danger{
+            background: #0b34ba;
+            margin-left: auto;
+        }
+    }
+}

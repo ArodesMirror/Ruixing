@@ -1,0 +1,101 @@
+.detail{
+    padding-top: 46px;
+    .van-icon{
+        color: #0b34ba;
+    }
+    .van-nav-bar__text{
+        color: #0b34ba;
+    }
+    .van-nav-bar__title{
+        font-size: 18px;
+    }
+    .img-box{
+        position: relative;
+        .img-name{
+            position: absolute;
+            left: 20px;
+            bottom: 40px;
+            background-color: rgba(255, 255, 255, 0.6);
+            padding: 6px 20px;
+            border-radius: 20px;
+            font-size: 18px;
+        }
+    }
+    // 商品规格大盒子
+    .products-rule-box{
+        position: relative;
+        background-color: white;
+        top: -20px;
+        border-radius: 25px;
+        padding: 20px;
+        // 规格
+        .rule-box{
+            border-bottom: 1px solid #ededed;
+            .rule-item{
+                display: flex;
+                margin-bottom: 20px;
+            }
+            .rule-name{
+                width: 60px;
+                line-height: 35px;
+                font-size: 16px;
+            }
+            .rule-selects{
+                display: flex;
+                .select{
+                    width: 60px;
+                    line-height: 34px;
+                    padding: 2px 10px;
+                    background-color: #e9e9e9;
+                    color: #989898;
+                    text-align: center;
+                    border-radius: 20px;
+                    margin-right: 10px;
+                    font-size: 14px;
+                    &.active{
+                        background-color: #0b34ba;
+                        color: white;
+                    }
+                }
+            }
+        }
+        // 商品描述
+        .pro-des{
+            padding: 20px 0;
+            border-bottom: 1px solid #ededed;
+            .des-title{
+                margin: 20px 0;
+                font-size: 14px;
+            }
+            .des-content{
+                color: #989898;
+                >div{
+                    margin-bottom: 8px;
+                    font-size: 13px;
+                    &:last-child{
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+        // 价格
+        .price-box{
+            padding: 20px 0;
+            .price{
+                color: #0b34ba;
+                font-size: 18px;
+                font-weight: bolder;
+            }
+            .van-stepper__minus{
+                color: #989898;
+                border-color: #989898;
+            }
+            .van-stepper__plus{
+                background-color: #0b34ba;
+            }
+        }
+    }
+    .van-info{
+        background-color: #0b34ba;
+    }
+}

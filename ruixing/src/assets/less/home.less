@@ -1,0 +1,88 @@
+.home{
+    padding: 47px 0;
+    background-color: #f6f6f4;
+    .user-box{
+        display: flex;
+        font-weight: bolder;
+        .time{
+            font-size: 18px;
+        }
+        .user-name{
+            font-size: 18px;
+            margin-left: 5px;
+        }
+    }
+    // .van-nav-bar__left, .van-nav-bar__right
+    .van-nav-bar__right{
+        padding: 0;
+        .van-search{
+            padding: 0 10px 0 0;
+        }
+        .van-icon{
+            font-size: 20px;
+        }
+    }
+    // 商品
+    .product-box{
+        .banner{
+            padding: 10px;
+            .my-swipe{
+                border-radius: 10px;
+            }
+            .van-swipe-item{
+                position: relative;
+                .img-name{
+                    position: absolute;
+                    left: 10px;
+                    bottom: 15px;
+                    padding: 8px 15px;
+                    background-color: rgba(255, 255, 255, 0.6);
+                    border-radius: 20px;
+                    font-size: 14px;
+                }
+            }
+        }
+        // 热门推荐
+        .product-content{
+            .product-title{
+                line-height: 40px;
+                background-color: #0b34ba;
+                margin: 10px 0;
+                padding: 0 20px;
+                color: white;
+                border-top-right-radius: 20px;
+                border-bottom-left-radius: 20px;
+            }
+            .product-item-box{
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .pro-item{
+                width: calc(50% - 30px);
+                background-color: white;
+                margin: 0 10px 10px 0;
+                padding: 10px;
+                &:nth-child(2n){
+                    margin-right: 0;
+                }
+            }
+            .pro-img{
+                border-radius: 10px;
+                overflow: hidden;
+            }
+            .pro-name{
+                font-size: 18px;
+                font-weight: bolder;
+                margin: 8px 0;
+                color: #3B2A41;
+            }
+            .pro-enname{
+                color: #989898;
+                font-size: 14px;
+            }
+            .pro-price{
+                color: #0b34ba;
+            }
+        }
+    }
+}
